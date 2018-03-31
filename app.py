@@ -111,7 +111,7 @@ def income():
 
 @app.route('/crime')
 def crimeHome():
-  return render_template('crime2010.html')
+  return render_template('crime.html')
 @app.route('/crime2010')
 def crime0():
     return render_template('crime2010.html')
